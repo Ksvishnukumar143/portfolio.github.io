@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolioi website</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div id="logo">VisHnu.</div>
+        <ul>
+            <li><a href="#inform" id="link-head">Home</a></li>
+            <li><a href="#aboutme" id="link-head">About</a></li>
+
+            <li><a href="#myservice" id="link-head">Service</a></li>
+            <li><a href="#contact" id="link-head">Contact</a></li>
+
+        </ul>
+        <div id="menu">
+            <div id="menu-line"></div>
+            <div id="menu-line"></div>
+            <div id="menu-line"></div>
+
+        </div>
+    </div> 
+    <div id="inform">
+        <div id="details">
+            <div id="roll">Web developer</div>
+            <div id="name">Hi,I'm <span>Vishnu</span></div>
+            <div id="location">From Madurai</div>
+        </div>
+        <div class="image">
+        </div>
+    </div>
+    <!-- second layer -->
+    <div id="aboutme">
+        <div id="seeimage"></div>
+        <div id="abt">
+            <div id="about">About Me</div>
+            <div id="cnt">hello i am vishnu seeking level object
+                hello i am vishnu seeking level objecthello i am vishnu seeking level objecthello i am vishnu seeking level object
+            </div>
+            <a href="education.html"  target="box" id="hrf-first">Euducation</a>
+            <a href="skill.html" target="box" id="hrf-second">skill</a>
+            <a href="experience.html" target="box" id="hrf-third">Experience</a> 
+      
+            <div id="frame">
+                <iframe id="kpage" name="box">
+                
+                </iframe>
+            </div> 
+        </div>
+    </div>
+    <div id="myservice">
+        <div id="My-service">My Service</div>
+    </div>
+    
+    <div id="sub-box">
+        <div id="web">
+            <div id="icone"><i class="fa-solid fa-code"></i></div>
+            <div id="web2">Web Design</div>
+            <did id="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, reiciendis. Quasi libero commodi perferendis ex vel impedit doloremque. Beatae, tempora!</did>
+            <div id="learn">learn more</div>
+        </div>
+        <div id="web">
+            <div id="icone"><i class="fa-solid fa-tablet-screen-button"></i></div>
+            <div id="web2">App Design</div>
+            <did id="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, reiciendis. Quasi libero commodi perferendis ex vel impedit doloremque. Beatae, tempora!</did>
+            <div id="learn">learn more</div>
+        </div>
+        <div id="web">
+            <div id="icone"><i class="fa-solid fa-file-code"></i></div>
+            <div id="web2">Cooding</div>
+            <did id="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, reiciendis. Quasi libero commodi perferendis ex vel impedit doloremque. Beatae, tempora!</did>
+            <div id="learn">learn more</div>
+        </div>
+    </div>
+    <div id="contact">
+        <div id="contact-me">
+            <div id="contact-name">Contact Me</div>
+            <div id="Mail">
+                <i class="fa fa-envelope" style="color:red"></i>
+                <a href="mailto:ksvishnukumar3@gmail.com">Mail To: vishnu</a>
+            </div>
+            <div id="Phone">
+                <i class="fa-solid fa-phone" style="color:red"></i>
+                <a href="tel:6379095540">6379095540</a>
+            </div>
+            <!-- <div id="Githug">
+                <i class="fa fa-linkedin" style="color: red;"></i>
+                <a href="#">Linkedin</a>
+            </div>-->
+            <div id="cv">
+                <a href="cv.pdf" download class="btn-btn-download">Download CV</a>
+            </div>
+
+        </div>
+        <div id="form">
+            <form method="post">
+                <div id="Ent-name"><input type="text" name="name" placeholder="Your name" id="text"></div>
+                <div id="Ent-mail"><input type="email" name="mail" placeholder="Enter your mail id"></div>
+                <div id="Message"><textarea cols="59" rows="8" name="message" placeholder="Message"></textarea></div>
+                <div id="btn"><button type="submit">Submit</button></div>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-ct">Copyright@VisHnu<i class="fa fa-heart" style="color:red"></i></div>
+    </div>
+    
+    <script>
+        
+    const menu=document.getElementById('menu')
+    const result=document.querySelector('.header ul')
+    menu.addEventListener('click',()=>{
+        result.classList.toggle('showmenu')
+    })
+    </script>
+</body>
+
+
+</html>
